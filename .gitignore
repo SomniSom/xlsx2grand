@@ -1,0 +1,13 @@
+# бинарь
+/xlsx2grand
+/xlsx2grand-linux-*
+/dist/
+
+# выходные XML и входные выгрузки
+*.xml
+*.xlsx
+!testdata/**/*.xlsx
+
+# окружение
+.env
+.DS_Store
